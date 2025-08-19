@@ -2,6 +2,7 @@
 #include <cstdlib>
 
 int main() {
+    std::srand(std::time(nullptr));
     std::cout << "hello world!" << std::endl;
     
     int array[10];
